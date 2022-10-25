@@ -1,0 +1,20 @@
+{
+  "branchNames": {
+    "develop": "develop",
+    "main": "main",
+    "release": "release",
+    "issueBranchTemplate": "feature/iss/#<ISSUE_NUMBER>"
+  },
+  "start": {
+    "fromDevelopOnly": true,
+    "pullBeforeAlways": true,
+    "checkoutToFeature": true
+  },
+  "finish": {
+    "checkOutToDevelop": false,
+    "checkMergeConflict": true
+  },
+  "git": {
+    "remoteAlias": "origin"
+  }
+}
